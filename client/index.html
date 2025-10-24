@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Building Care Solutions Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f8; margin: 0; }
+    header { background: #004aad; color: white; padding: 1rem; text-align: center; }
+    main { padding: 2rem; }
+    .menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .card { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+    a { text-decoration: none; color: #004aad; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Building Care Solutions Management Dashboard</h1>
+  </header>
+  <main>
+    <div class="menu">
+      <div class="card"><a href="/api/invoices">Invoices</a></div>
+      <div class="card"><a href="/api/estimates">Estimates</a></div>
+      <div class="card"><a href="/api/work-orders">Work Orders</a></div>
+      <div class="card"><a href="/api/change-orders">Change Orders</a></div>
+      <div class="card"><a href="/api/job-tracking">Job Tracking</a></div>
+      <div class="card"><a href="/api/materials">Materials</a></div>
+      <div class="card"><a href="/api/equipment">Equipment Log</a></div>
+      <div class="card"><a href="/api/tools">Hand Tools</a></div>
+      <div class="card"><a href="/api/employees">Employee Hours</a></div>
+      <div class="card"><a href="/api/vendors">Vendors / Subs</a></div>
+      <div class="card"><a href="/api/remediation/dryout">Water Remediation Dry-Out</a></div>
+      <div class="card"><a href="/api/remediation/reconstruction">Reconstruction</a></div>
+      <div class="card"><a href="/api/reports">Reports</a></div>
+      <div class="card"><a href="/api/settings">Settings</a></div>
+    </div>
+  </main>
+</body>
+</html>
